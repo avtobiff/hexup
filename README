@@ -1,0 +1,17 @@
+****** HEXUP ******
+
+**** An implementation of XQuery Update Facility in Haskell ****
+This project was performed by students Lukas Niessen and Per Andersson as part
+of the course Frontiers of Programming Language Technology given at Chalmers
+University of Technology, during the academic year 2007/2008.
+
+*** Motivation ***
+XML is a widely used format to represent data. XQuery is a standard that
+enables querys similar to those of relational databases for XML. XQuery only
+supports selection from XML documents, XQuery Update Facility enables
+techniques for modifying existing XML documents.
+
+*** HEXUP ***
+HEXUP is an Haskell implementation of XQuery Update Facility that uses the
+tools Parsec, for parsing the queries, and HXT, Haskell XML Toolbox, for
+interacting with XML documents.
