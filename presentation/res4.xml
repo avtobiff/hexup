@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+  <recipe name="bread" prep_time="5 mins" cook_time="3 hours">
+    <title> Basic bread </title>
+    <ingredient amount="3" unit="cups">Flour</ingredient>
+    <instructions>
+      <ingredient amount="1" unit="teaspoon">Salt</ingredient>
+      <step>Mix all ingredients together.</step>
+      <step>Knead thoroughly.</step>
+      <step>Cover with a cloth, and leave for 1h in warm room.</step>
+      <step>Knead again.</step>
+      <step>Place in a bread baking tin.</step>
+      <step>Cover with a cloth, and leave for 1h in warm room.</step>
+      <step>Bake in the oven at 350(degrees)F for 30 minutes.</step>
+    </instructions>
+  </recipe>
+</recipes>

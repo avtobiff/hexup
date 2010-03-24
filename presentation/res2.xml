@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <res>
+    <ingredient amount="0.5" unit="ounce">Yeast</ingredient>
+    <ingredient amount="1" unit="teaspoon">Salt</ingredient>
+    <ingredient amount="2" unit="cups" state="hot">Water</ingredient>
+    <ingredient amount="3" unit="cups">Flour</ingredient>
+  </res>
+</result>

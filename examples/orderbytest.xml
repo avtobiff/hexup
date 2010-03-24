@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<orderTest>
+	<el att="a"> <con val="10"> <name>D</name> </con> </el>
+	<el att="s"> <con val="1"> <name>TT</name> </con> </el>
+	<el att="x"> <con val="3"> <name>E</name> </con> </el>
+	<el att="c"> <con val="8"> <name>A</name> </con> </el>
+	<el att="y"> <con val="5"> <name>123</name> </con> </el>
+
+
+</orderTest>

@@ -1,0 +1,2 @@
+#!/bin/bash
+../xmltest test.xml - "/recipes/recipe/ingredient[@amount=3]"

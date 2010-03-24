@@ -1,0 +1,17 @@
+../Main "for \$ingr in (/recipes/recipe/ingredient) order by \$ingr/@amount return <res>\$ingr</res>" test1.xml res1.xml
+../Main "let \$ingr := (/recipes/recipe/ingredient) order by \$ingr/@amount return <res>\$ingr</res>" test1.xml res2.xml
+
+../Main "insert node (<ingredient amount='1' unit='cups'>Sugar</ingredient>) after (/recipes/recipe/ingredient[.='Yeast'])" test1.xml res3.xml
+../Main "replace node (/recipes/recipe/ingredient[.='Salt']) with (<ingredient amount='42' unit='cups'>Sugar</ingredient>)" test1.xml res5.xml
+../Main "delete nodes (/recipes/recipe/ingredient[@amount<3])" test1.xml res4.xml
+
+-- insert a new element into the document, show now second slide 
+
+../Main "delete nodes (/recipes/recipe/ingredient[@amount<3])" test2.xml res4.xml
+
+
+
+
+
+
+
